@@ -1,0 +1,23 @@
+# Keep the large source dataset out of this GitHub repository.
+data/
+
+# Python-generated files and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local configuration and credentials
+.env
+.env.*
+*.pem
+*.key
+
+# macOS and RStudio-generated files
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+
+# JetBrains IDE local settings
+.idea/
